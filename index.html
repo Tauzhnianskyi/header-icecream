@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@700&family=Raleway:wght@700&family=Roboto:wght@400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/1.1.0/modern-normalize.min.css" />
+    <link rel="stylesheet" href="./sass/main.scss" />
+    <link rel="stylesheet" href="./css/styles.css">
+  <body>
+    <header>
+      <div class="container">
+        <div class="header__nav-mobile">
+            <img src="./PNG/logo.png" alt="logo" class="logo" />
+        <button type="button" class="menu-open-btn">
+          <svg class="button__burger" width="20" height="12">
+            <use href="./icons.svg#icon-burger"></use>
+          </svg>
+        </div>
+        </button>
+            <div class="mob-menu">
+            <button type="button" class="close-menu-btn">
+                <svg class="close-menu-icon" width="14" height="14">
+                    <use href="./icons.svg#icon-close"></use>
+                </svg>
+            </button>
+            
+                <div class="btn-indend">
+                    <button type="button"class="buy-now">Buy now
+                        <span class="icon-buy"><svg class="icon-buy-now" width="5.5" height="8">
+                            <use href="./icons.svg#icon-but-now"></use>
+                        </svg></span>
+                    </button>
+                </div>
+                <ul class="nav-menu__list">
+                    <li class="nav-menu__item"><a href="" class="nav-menu__link">Home</a></li>
+                    <li class="nav-menu__item"><a href="" class="nav-menu__link">About us</a></li>
+                    <li class="nav-menu__item"><a href="" class="nav-menu__link">How it’s made?</a></li>
+                    <li class="nav-menu__item"><a href="" class="nav-menu__link">Our products</a></li>
+                    <li class="nav-menu__item"><a href="" class="nav-menu__link">Contact</a></li>
+                </ul>
+        </div>
+      </div>
+    </header>
+    <div class="backdrop is-hidden">
+        <div class="modal">
+            <button type="button" class="modal-close-btn">
+                <svg class="modal-close-btn">
+                    <use href="./icons.svg#icon-close"></use>
+                </svg>
+            </button>
+        </div>
+    </div>
+    <script src="./js/modal.js"></script>
+    <script src="./js/mobile-menu.js"></script>
+  </body>
+</html>

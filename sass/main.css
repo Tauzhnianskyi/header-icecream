@@ -1,0 +1,34 @@
+:root {
+  --header-color: #ffb8ca;
+  --background-color: #fff5f6;
+  --second-bg-color: #f0d1a5;
+  --third-bg-color: #c2e297;
+  --modal-bg-color: #e17992;
+  --ellipse-color: #ffa5ba;
+  --main-title-color: #d41443;
+  --second-title-color: #ffa5ba;
+  --typical-padding: 60px;
+}
+
+.header {
+  background: #ffb8ca;
+}
+
+.container {
+  min-width: 320px;
+  margin: 0 auto;
+  padding-left: 20px;
+  padding-right: 20px;
+  background: #ffb8ca;
+}
+
+.header__menu {
+  width: 40px;
+  height: 40px;
+}
+
+.header__nav-mobile {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 8px;
+}/*# sourceMappingURL=main.css.map */

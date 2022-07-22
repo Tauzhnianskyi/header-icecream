@@ -1,0 +1,22 @@
+.header {
+  background: #ffb8ca;
+}
+
+.container {
+  min-width: 320px;
+  margin: 0 auto;
+  padding-left: 20px;
+  padding-right: 20px;
+  background: #ffb8ca;
+}
+
+.header__menu {
+  width: 40px;
+  height: 40px;
+}
+
+.header__nav-mobile {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 8px;
+}
